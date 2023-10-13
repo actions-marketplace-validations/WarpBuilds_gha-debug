@@ -49,3 +49,11 @@ inputs:
       Also when generating a new PAT, select the least scopes necessary.
       [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
     default: ${{ github.token }}
+  named-session-name:
+    description: 'If populated, the session will be generated with a deterministic URL in the format of <username>/<named-sesison-name>@gha.warp.build'
+    required: false
+    default: ''
+  named-session-api-key:
+    description: 'API Key required to create named session. Please contact support@warpbuilds.com to get one.'
+    required: false
+    default: ''
