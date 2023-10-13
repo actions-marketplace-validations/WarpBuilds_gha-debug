@@ -1,6 +1,6 @@
 # ActionDebugger by [Warpbuild](https://warpbuild.com)
 
-[![GitHub Marketplace](https://img.shields.io/badge/GitHub-Marketplace-green)](https://github.com/marketplace/actions/gha-debug)
+[![GitHub Marketplace](https://img.shields.io/badge/GitHub-Marketplace-green)]([https://github.com/marketplace/actions/gha-debug](https://github.com/marketplace/actions/actiondebugger-by-warpbuild))
 
 This GitHub Action offers you a direct way to interact with the host system on which the actual scripts (Actions) will run.
 
