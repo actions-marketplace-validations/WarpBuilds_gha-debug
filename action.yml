@@ -1,8 +1,8 @@
-name: 'Debugging with tmate'
+name: 'Debugging with Warpbuild'
 description: 'Debug your GitHub Actions Environment interactively by using SSH or a Web shell'
 branding:
   icon: terminal
-author: 'Max Schmitt'
+author: 'Warpbuild'
 runs:
   using: 'node20'
   main: 'lib/index.js'
@@ -14,7 +14,7 @@ inputs:
     required: false
     default: 'auto'
   install-dependencies:
-    description: 'Whether or not to install dependencies for tmate on linux (openssh-client, xz-utils)'
+    description: 'Whether or not to install dependencies on linux (openssh-client, xz-utils)'
     required: false
     default: 'true'
   limit-access-to-actor:
@@ -22,7 +22,7 @@ inputs:
     required: false
     default: 'auto'
   detached:
-    description: 'In detached mode, the workflow job will continue while the tmate session is active'
+    description: 'In detached mode, the workflow job will continue while the ssh session is active'
     required: false
     default: 'false'
   tmate-server-host:
