@@ -2,6 +2,7 @@ name: 'ActionDebugger By Warpbuild'
 description: 'Debug your GitHub Actions Environment interactively by using SSH or a Web shell'
 branding:
   icon: terminal
+  color: green
 author: 'Warpbuild'
 runs:
   using: 'node20'
