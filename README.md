@@ -1,4 +1,4 @@
-# Debug your [GitHub Actions](https://github.com/features/actions) by [Warpbuild](https://warpbuild.com)
+# ActionDebugger by [Warpbuild](https://warpbuild.com)
 
 [![GitHub Marketplace](https://img.shields.io/badge/GitHub-Marketplace-green)](https://github.com/marketplace/actions/gha-debug)
 
